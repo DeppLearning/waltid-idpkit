@@ -1,6 +1,6 @@
 {
   "verifierUiUrl": "",
-  "verifierApiUrl": "http://localhost:8080/api/siop/default",
+  "verifierApiUrl": "https://ig2.filancore.net/api/siop/default",
 
   "wallets": {
     "walt.id": {

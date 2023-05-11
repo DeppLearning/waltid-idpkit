@@ -1,6 +1,8 @@
 {
-  "externalUrl": "http://localhost:5000",
+  "externalUrl": "https://ig2.filancore.net",
   "jsProjectExternalUrl":"http://localhost:4000",
+  "openClientRegistration": true,
+  "fallbackAuthorizationMode": "SIOP",
   "claimConfig": {
     "vc_mappings": [
       {
