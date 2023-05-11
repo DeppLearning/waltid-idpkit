@@ -365,6 +365,7 @@ object OIDCManager : IDPManager {
                 .withSubject(getSubjectFor(session))
                 .withIssuer("${IDPConfig.config.externalUrl}/api/oidc")
                 .withIssuedAt(Date())
+                .withExpiresAt(Date(Date().getTime() + (1000 * 60 * 60 * 24)))
                 .withAudience(session.authRequest.clientID.value)
                 .apply {
                     session.authRequest.customParameters["nonce"]?.firstOrNull()?.let { withClaim("nonce", it) }
