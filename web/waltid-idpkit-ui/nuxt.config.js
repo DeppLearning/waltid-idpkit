@@ -96,9 +96,9 @@ export default {
 //    },
 
     proxy: {
-        '/verifier-api/': "http://waltid-backend:8080/",
-        '/api/': "http://waltid-backend:8080/",
-        '/webjars/': "http://waltid-backend:8080/"
+        '/verifier-api/': "http://localhost:8080/",
+        '/api/': "http://localhost:8080/",
+        '/webjars/': "http://localhost:8080/"
     },
 
     server: {
